@@ -127,3 +127,5 @@ gem "orthoses-rails", "~> 1.5", :group => :development, :require => false
 
 gem "irb", "~> 1.12"
 gem "repl_type_completor", "~> 0.1.4"
+
+gem "rbs", github: "ruby/rbs"
