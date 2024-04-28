@@ -124,3 +124,6 @@ Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |
 end
 
 gem "orthoses-rails", "~> 1.5", :group => :development, :require => false
+
+gem "irb", "~> 1.12"
+gem "repl_type_completor", "~> 0.1.4"
