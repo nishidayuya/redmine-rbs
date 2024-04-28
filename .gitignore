@@ -47,3 +47,4 @@
 /node_modules
 yarn-error.log
 /.gem_rbs_collection
+/sig
