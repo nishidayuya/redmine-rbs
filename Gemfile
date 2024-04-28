@@ -123,9 +123,7 @@ Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |
   eval_gemfile file
 end
 
-gem "orthoses-rails", "~> 1.5", :group => :development, :require => false
+gem "orthoses-rails", "~> 1.5", :group => :development, :require => false, github: "nishidayuya/orthoses-rails", ref: "v1.5.0-fix_action_mailer_base"
 
 gem "irb", "~> 1.12"
 gem "repl_type_completor", "~> 0.1.4"
-
-gem "rbs", github: "ruby/rbs"
